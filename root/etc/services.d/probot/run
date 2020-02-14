@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+cd /app
+
+exec \
+	s6-setuidgid abc npm --prefix /app --cache /app start
