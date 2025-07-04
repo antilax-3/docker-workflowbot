@@ -8,8 +8,8 @@ LABEL version="${version}"
 LABEL maintainer="Nightah"
 
 # set environment variables
-ENV NODE_CONFIG_DIR /config
-ENV PRIVATE_KEY_PATH /config/privkey.pem
+ENV NODE_CONFIG_DIR=/config \
+PRIVATE_KEY_PATH=/config/privkey.pem
 
 # set working directory
 WORKDIR /app
