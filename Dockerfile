@@ -19,8 +19,8 @@ COPY root/ /
 
 # install packages
 RUN \
- echo "**** build node application ****" && \
- cd /app && npm install
+  echo "**** build node application ****" && \
+    cd /app && npm install
 
 # ports and volumes
 EXPOSE 3000

@@ -47,4 +47,5 @@ The bot is configured by setting the following environment variables:
 - `WEBHOOK_SECRET` - Webhook secret from the GitHub App
 
 ## Version
+- **04/07/25:** Updated to use alpine 3.22 image and s6 v3 service structure
 - **14/02/20:** Initial Release
